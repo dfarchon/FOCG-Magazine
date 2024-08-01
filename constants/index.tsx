@@ -203,6 +203,23 @@ export const NightMarket = {
   },
 };
 
+export const Downstream = {
+  name:'Downstream',
+  desc: 'Help a super intelligent AI rebuild after an unfortunate accident.\
+  The world\'s first Post Singularity Civilisation Simulator, by @PlaymintUK.',
+  logo: '/images/gamelogo/Downstream.png',
+  twitter: 'https://x.com/DownstreamGame',
+  discord: 'https://discord.com/invite/VdXWWNaqGN',
+  github: '',
+  blog:'',
+  docs:'',
+  color:'#fb7001',
+  handleClick:()=>{
+    window.open('https://redstone.downstream.game/');
+  }
+
+}
+
 export const GOD = {
   name: "God",
   desc: "GM everyone",
@@ -227,7 +244,8 @@ export const GAMES_THREE = [
   Kamigotchi,
   TxFarm,
   Influence,
-  NightMarket
+  NightMarket,
+  Downstream,
 ];
 
 export const GAMES_TWO = [];
